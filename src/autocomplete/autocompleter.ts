@@ -14,7 +14,7 @@ import {
   ABOUT_NOTE_KEYS,
   ABOUT_NOTE_NAMES,
   GLOBAL_STYLE_KEYWORD_MAP,
-} from "../compiler/constants";
+} from "@formulavize/compiler-frontend-fiz/constants";
 
 export function createCompletions(
   completionIndex: CompletionIndex,

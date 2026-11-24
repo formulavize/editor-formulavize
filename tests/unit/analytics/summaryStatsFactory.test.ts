@@ -1,6 +1,6 @@
 import { describe, test, expect } from "vitest";
-import { Dag, DagEdge, DagNode } from "src/compiler/dag";
-import { Compilation } from "src/compiler/compilation";
+import { Dag, DagEdge, DagNode } from "@formulavize/compiler-frontend-fiz/dag";
+import { Compilation } from "@formulavize/compiler-frontend-fiz/compilation";
 import { createSummaryStats } from "src/analytics/summaryStatsFactory";
 import {
   RecipeTreeNode,
@@ -9,9 +9,9 @@ import {
   ValueListTreeNode,
   NamespaceTreeNode,
   StatementListTreeNode,
-} from "src/compiler/ast";
-import { DEFAULT_POSITION } from "src/compiler/compilationErrors";
-import { parseFromSource } from "src/compiler/parser";
+} from "@formulavize/compiler-frontend-fiz/ast";
+import { DEFAULT_POSITION } from "@formulavize/compiler-frontend-fiz/compilationErrors";
+import { parseFromSource } from "@formulavize/compiler-frontend-fiz/parser";
 import { SummaryStats } from "src/analytics/summaryStats";
 
 describe("DAG statistics", () => {

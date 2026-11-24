@@ -5,7 +5,7 @@ import {
   RendererRegistry,
 } from "src/rendererApi";
 import { headlessRendererDescriptors } from "src/renderers/headlessRenderers";
-import { Dag, DagStyle } from "src/compiler/dag";
+import { Dag, DagStyle } from "@formulavize/compiler-frontend-fiz/dag";
 
 const EMPTY_STYLE: DagStyle = {
   styleTags: [],

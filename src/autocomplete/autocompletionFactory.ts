@@ -11,9 +11,9 @@ import {
   RendererDirectiveTreeNode,
   AboutNoteTreeNode,
   NamespaceTreeNode,
-} from "../compiler/ast";
-import { GLOBAL_STYLE_KEYWORD_MAP } from "../compiler/constants";
-import { getDeclaredImports } from "../compiler/astUtility";
+} from "@formulavize/compiler-frontend-fiz/ast";
+import { GLOBAL_STYLE_KEYWORD_MAP } from "@formulavize/compiler-frontend-fiz/constants";
+import { getDeclaredImports } from "@formulavize/compiler-frontend-fiz/astUtility";
 import {
   CompletionIndex,
   TokenInfo,

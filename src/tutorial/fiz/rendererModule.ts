@@ -1,7 +1,7 @@
 import { Puzzlet, SuccessCriterion } from "../lesson";
 import { normal, fast } from "../animationHelpers";
 import { getRendererDirectiveProperties } from "src/rendererApi";
-import { StyleProperties } from "src/compiler/dag";
+import { StyleProperties } from "@formulavize/compiler-frontend-fiz/dag";
 import {
   CYTOSCAPE_RENDERER_NAME,
   LAYOUT_PROPERTY,

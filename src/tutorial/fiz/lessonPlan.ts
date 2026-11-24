@@ -1,5 +1,5 @@
 import { Lesson, Puzzlet } from "../lesson";
-import { Compilation } from "src/compiler/compilation";
+import { Compilation } from "@formulavize/compiler-frontend-fiz/compilation";
 import { normal, fast, slow } from "../animationHelpers";
 
 import { functionsModule } from "./functionsModule";

@@ -1,6 +1,6 @@
-import { Compilation } from "../compiler/compilation";
-import { Dag, DagElement } from "../compiler/dag";
-import { BaseTreeNode, NodeType } from "../compiler/ast";
+import { Compilation } from "@formulavize/compiler-frontend-fiz/compilation";
+import { Dag, DagElement } from "@formulavize/compiler-frontend-fiz/dag";
+import { BaseTreeNode, NodeType } from "@formulavize/compiler-frontend-fiz/ast";
 import {
   SummaryStats,
   DagStructuralStats,

@@ -1,6 +1,6 @@
 import { JSDOM } from "jsdom";
 import { createCanvas, GlobalFonts, type Canvas } from "@napi-rs/canvas";
-import { Dag } from "../../compiler/dag";
+import { Dag } from "@formulavize/compiler-frontend-fiz/dag";
 import {
   ExportFormat,
   HeadlessRenderOptions,

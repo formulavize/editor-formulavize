@@ -4,7 +4,7 @@ import {
   NodeSingular,
   PresetLayoutOptions,
 } from "cytoscape";
-import { Dag } from "../../compiler/dag";
+import { Dag } from "@formulavize/compiler-frontend-fiz/dag";
 import { LAYOUT_PROPERTY } from "./constants";
 import { getCytoscapeDirectiveProperties } from "./cyRendererDirectives";
 import { buildLayoutOptions } from "./cyLayoutSchema";

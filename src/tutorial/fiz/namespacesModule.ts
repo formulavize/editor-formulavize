@@ -1,6 +1,6 @@
 import { Puzzlet } from "../lesson";
-import { Compilation } from "src/compiler/compilation";
-import { Dag } from "src/compiler/dag";
+import { Compilation } from "@formulavize/compiler-frontend-fiz/compilation";
+import { Dag } from "@formulavize/compiler-frontend-fiz/dag";
 import { normal, fast } from "../animationHelpers";
 import { getDagNodesIds, getInEdges, getOutEdges } from "../winCheckHelpers";
 

@@ -12,8 +12,8 @@ import {
   getBaseStylesheet,
   makeCyStylesheets,
 } from "src/renderers/cyDag/cyStyleSheetsFactory";
-import { DESCRIPTION_PROPERTY } from "src/compiler/constants";
-import { Dag, DagElement } from "src/compiler/dag";
+import { DESCRIPTION_PROPERTY } from "@formulavize/compiler-frontend-fiz/constants";
+import { Dag, DagElement } from "@formulavize/compiler-frontend-fiz/dag";
 
 describe("filters out non-cytoscape properties", () => {
   test("property with non-cytoscape prefix", () => {

@@ -1,4 +1,8 @@
-import { DagElement, DagEdge, Dag } from "src/compiler/dag";
+import {
+  DagElement,
+  DagEdge,
+  Dag,
+} from "@formulavize/compiler-frontend-fiz/dag";
 
 // Helper function to get edges coming into a node by ID
 export function getInEdges(nodeId: string, edgeList: DagEdge[]): DagEdge[] {

@@ -1,4 +1,4 @@
-import { Dag, StyleProperties } from "../../compiler/dag";
+import { Dag, StyleProperties } from "@formulavize/compiler-frontend-fiz/dag";
 import { getRendererDirectiveProperties } from "../../rendererApi";
 import {
   BACKGROUND_COLOR_PROPERTY,

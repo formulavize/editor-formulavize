@@ -98,7 +98,7 @@ import ToolBar from "./components/ToolBar.vue";
 import ConfettiEffect from "./components/ConfettiEffect.vue";
 import ExportOptionsPopup from "./components/ExportOptionsPopup.vue";
 import OptionsPopup from "./components/OptionsPopup.vue";
-import { Dag } from "./compiler/dag";
+import { Dag } from "@formulavize/compiler-frontend-fiz/dag";
 import { OptionsStore } from "./optionsStore";
 import { TutorialManager } from "./tutorial/tutorialManager";
 import TutorialLevelSelect from "./components/TutorialLevelSelect.vue";

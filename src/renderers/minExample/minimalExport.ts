@@ -1,4 +1,4 @@
-import { Dag } from "../../compiler/dag";
+import { Dag } from "@formulavize/compiler-frontend-fiz/dag";
 
 /**
  * The text a minimal-renderer export contains.

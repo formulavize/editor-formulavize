@@ -2,8 +2,8 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { basename, dirname, extname } from "node:path";
 import { Command, CommanderError, Option } from "commander";
-import { Compiler } from "../compiler/driver";
-import { CompilationError } from "../compiler/compilationErrors";
+import { Compiler } from "@formulavize/compiler-frontend-fiz/driver";
+import { CompilationError } from "@formulavize/compiler-frontend-fiz/compilationErrors";
 import {
   ExportFormat,
   RendererRegistry,

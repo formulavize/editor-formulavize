@@ -1,6 +1,6 @@
 import { describe, test, expect } from "vitest";
 import { ExportFormat } from "src/rendererApi";
-import { Compiler } from "src/compiler/driver";
+import { Compiler } from "@formulavize/compiler-frontend-fiz/driver";
 import { makeDagSummaryText } from "src/renderers/minExample/minimalExport";
 import { minimalRendererMeta } from "src/renderers/minExample/meta";
 

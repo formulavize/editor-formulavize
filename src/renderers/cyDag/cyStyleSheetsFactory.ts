@@ -1,6 +1,11 @@
 import { StylesheetCSS } from "cytoscape";
-import { DESCRIPTION_PROPERTY } from "../../compiler/constants";
-import { Dag, DagElement, StyleTag, StyleProperties } from "../../compiler/dag";
+import { DESCRIPTION_PROPERTY } from "@formulavize/compiler-frontend-fiz/constants";
+import {
+  Dag,
+  DagElement,
+  StyleTag,
+  StyleProperties,
+} from "@formulavize/compiler-frontend-fiz/dag";
 
 // a list of known property prefixes that should not be passed to cytoscape
 const NON_CYTOSCAPE_PROPERTY_PREFIXES: string[] = [

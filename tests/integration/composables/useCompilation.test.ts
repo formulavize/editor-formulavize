@@ -3,8 +3,8 @@ import { effectScope, nextTick } from "vue";
 import { flushPromises } from "@vue/test-utils";
 import { EditorState } from "@codemirror/state";
 import { fizLanguage } from "@formulavize/lang-fiz";
-import { Dag } from "src/compiler/dag";
-import { RecipeTreeNode } from "src/compiler/ast";
+import { Dag } from "@formulavize/compiler-frontend-fiz/dag";
+import { RecipeTreeNode } from "@formulavize/compiler-frontend-fiz/ast";
 import { CompletionIndex } from "src/autocomplete/autocompletion";
 import { useCompilation } from "src/composables/useCompilation";
 

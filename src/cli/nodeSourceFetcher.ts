@@ -1,12 +1,15 @@
 import { readFile } from "node:fs/promises";
 import { isAbsolute, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { FetchSourceFn, fetchSourceOverHttp } from "../compiler/importFetcher";
+import {
+  FetchSourceFn,
+  fetchSourceOverHttp,
+} from "@formulavize/compiler-frontend-fiz/importFetcher";
 import {
   ErrorCode,
   ImportError,
   describeError,
-} from "../compiler/compilationErrors";
+} from "@formulavize/compiler-frontend-fiz/compilationErrors";
 
 // Node's fetch requires an absolute URL, so a recipe's '@ "lib.fiz"' cannot be
 // fetched the way a browser resolves it against the page origin. Outside a

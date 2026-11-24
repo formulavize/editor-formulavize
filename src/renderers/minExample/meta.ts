@@ -3,7 +3,7 @@ import {
   HeadlessRenderOptions,
   RendererDescriptor,
 } from "../../rendererApi";
-import { Dag } from "../../compiler/dag";
+import { Dag } from "@formulavize/compiler-frontend-fiz/dag";
 import { makeDagSummaryText } from "./minimalExport";
 
 export const MINIMAL_RENDERER_NAME: string = "minimal";

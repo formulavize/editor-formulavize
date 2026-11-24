@@ -1,4 +1,8 @@
-import { Dag, DagStyle, StyleProperties } from "../compiler/dag";
+import {
+  Dag,
+  DagStyle,
+  StyleProperties,
+} from "@formulavize/compiler-frontend-fiz/dag";
 
 // Resolve a binding's style tags and inline properties into a single map,
 // matching the precedence used throughout renderer-directive processing: tags

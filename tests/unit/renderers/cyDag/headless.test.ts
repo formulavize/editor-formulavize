@@ -1,7 +1,7 @@
 import { describe, test, expect } from "vitest";
 import { createCanvas, loadImage } from "@napi-rs/canvas";
 import { JSDOM } from "jsdom";
-import { Compiler } from "src/compiler/driver";
+import { Compiler } from "@formulavize/compiler-frontend-fiz/driver";
 import { ExportFormat, HeadlessRenderOptions } from "src/rendererApi";
 import { renderDagToBytes } from "src/renderers/cyDag/headless";
 

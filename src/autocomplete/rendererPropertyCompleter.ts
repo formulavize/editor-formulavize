@@ -7,7 +7,7 @@ import {
 
 import { CompletionIndex, ContextScenarioType } from "./autocompletion";
 import { PropertyCompletion, RendererDescriptor } from "../rendererApi";
-import { GLOBAL_STYLE_KEYWORD_MAP } from "../compiler/constants";
+import { GLOBAL_STYLE_KEYWORD_MAP } from "@formulavize/compiler-frontend-fiz/constants";
 
 const NO_PROPERTIES: Completion[] = [];
 

@@ -1,7 +1,7 @@
 import { describe, test, expect, beforeEach, afterEach } from "vitest";
 import { effectScope, shallowRef, nextTick } from "vue";
 import { ExportFormat, RendererPlugin } from "src/rendererApi";
-import { Dag, DagStyle } from "src/compiler/dag";
+import { Dag, DagStyle } from "@formulavize/compiler-frontend-fiz/dag";
 import { useRendererRegistry } from "src/composables/useRendererRegistry";
 
 // Plain stand-ins for the shipped renderers. The composable only ever reads a

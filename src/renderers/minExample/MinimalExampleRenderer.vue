@@ -16,7 +16,7 @@
 
 <script lang="ts">
 import { defineComponent, PropType } from "vue";
-import { Dag } from "../../compiler/dag";
+import { Dag } from "@formulavize/compiler-frontend-fiz/dag";
 import { ExportFormat, FileExportOptions } from "../../rendererApi";
 import { makeDagSummaryText } from "./minimalExport";
 import { saveAs } from "file-saver";

@@ -1,6 +1,9 @@
 import { Puzzlet } from "../lesson";
-import { Compilation } from "src/compiler/compilation";
-import { NodeType, AssignmentTreeNode } from "src/compiler/ast";
+import { Compilation } from "@formulavize/compiler-frontend-fiz/compilation";
+import {
+  NodeType,
+  AssignmentTreeNode,
+} from "@formulavize/compiler-frontend-fiz/ast";
 import { normal, fast, dramatic } from "../animationHelpers";
 import {
   getInDegree,

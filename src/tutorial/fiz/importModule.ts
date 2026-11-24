@@ -1,6 +1,9 @@
 import { Puzzlet, SuccessCriterion } from "../lesson";
 import { normal, fast } from "../animationHelpers";
-import { NodeType, ImportTreeNode } from "src/compiler/ast";
+import {
+  NodeType,
+  ImportTreeNode,
+} from "@formulavize/compiler-frontend-fiz/ast";
 
 const importBaseUrl = "https://formulavize.github.io/fiz-tutorial-imports/";
 const antUrl = `${importBaseUrl}ant.fiz`;

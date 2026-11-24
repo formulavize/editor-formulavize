@@ -6,10 +6,10 @@ import {
   LocalVarTreeNode as LocalVariable,
   QualifiedVarTreeNode as QualifiedVariable,
   ValueListTreeNode as ValueList,
-} from "src/compiler/ast";
-import { makeDag } from "src/compiler/dagFactory";
-import { Compiler } from "src/compiler/driver";
-import { ImportResolver } from "src/compiler/importCacher";
+} from "@formulavize/compiler-frontend-fiz/ast";
+import { makeDag } from "@formulavize/compiler-frontend-fiz/dagFactory";
+import { Compiler } from "@formulavize/compiler-frontend-fiz/driver";
+import { ImportResolver } from "@formulavize/compiler-frontend-fiz/importCacher";
 import { makeCyElements } from "src/renderers/cyDag/cyGraphFactory";
 import cytoscape from "cytoscape";
 

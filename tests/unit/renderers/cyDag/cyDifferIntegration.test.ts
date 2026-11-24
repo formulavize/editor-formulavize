@@ -5,8 +5,8 @@ import {
   applyDataUpdates,
 } from "src/renderers/cyDag/cyDiffer";
 import cytoscape, { Core, ElementsDefinition } from "cytoscape";
-import { Compiler } from "src/compiler/driver";
-import { Dag } from "src/compiler/dag";
+import { Compiler } from "@formulavize/compiler-frontend-fiz/driver";
+import { Dag } from "@formulavize/compiler-frontend-fiz/dag";
 import { makeCyElements } from "src/renderers/cyDag/cyGraphFactory";
 
 describe("diffCyElements integration", () => {

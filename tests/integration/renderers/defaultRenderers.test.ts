@@ -5,7 +5,7 @@
 // the DOM the moment they are loaded. This is the one test that loads the real
 // plugin list rather than stand-ins, so it is the one test that needs a DOM.
 import { describe, test, expect } from "vitest";
-import { Compiler } from "src/compiler/driver";
+import { Compiler } from "@formulavize/compiler-frontend-fiz/driver";
 import { ExportFormat, RendererRegistry } from "src/rendererApi";
 import { defaultRendererPlugins as plugins } from "src/renderers/defaultRenderers";
 

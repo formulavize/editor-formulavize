@@ -1,6 +1,6 @@
 import { describe, test, expect } from "vitest";
 import cytoscape, { Core } from "cytoscape";
-import { Compiler } from "src/compiler/driver";
+import { Compiler } from "@formulavize/compiler-frontend-fiz/driver";
 import { makeCyElements } from "src/renderers/cyDag/cyGraphFactory";
 import {
   makeLayoutOptions,

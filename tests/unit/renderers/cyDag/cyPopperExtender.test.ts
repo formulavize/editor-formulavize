@@ -11,8 +11,8 @@ import {
   setupCyPoppers,
   getPopperReferencePosition,
 } from "src/renderers/cyDag/cyPopperExtender";
-import { DESCRIPTION_PROPERTY } from "src/compiler/constants";
-import { Dag, StyleProperties } from "src/compiler/dag";
+import { DESCRIPTION_PROPERTY } from "@formulavize/compiler-frontend-fiz/constants";
+import { Dag, StyleProperties } from "@formulavize/compiler-frontend-fiz/dag";
 import { Core } from "cytoscape";
 
 function makeDescriptionData(

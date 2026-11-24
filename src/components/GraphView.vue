@@ -12,7 +12,7 @@
 
 <script lang="ts">
 import { defineComponent, PropType } from "vue";
-import { Dag } from "../compiler/dag";
+import { Dag } from "@formulavize/compiler-frontend-fiz/dag";
 import {
   FileExportOptions,
   RendererComponent,

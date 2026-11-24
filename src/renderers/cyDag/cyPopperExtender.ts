@@ -3,14 +3,14 @@ import { PopperInstance } from "cytoscape-popper";
 import {
   DESCRIPTION_PROPERTY,
   DESCRIPTION_PREFIX,
-} from "../../compiler/constants";
+} from "@formulavize/compiler-frontend-fiz/constants";
 import {
   Dag,
   DagElement,
   ElementId,
   StyleTag,
   StyleProperties,
-} from "../../compiler/dag";
+} from "@formulavize/compiler-frontend-fiz/dag";
 
 const POPPER_OUTER_DIV_CLASS: string = "popper-outer-div";
 const POPPER_INNER_DIV_CLASS: string = "popper-inner-div";

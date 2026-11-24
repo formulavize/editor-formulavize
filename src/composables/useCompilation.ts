@@ -2,15 +2,21 @@ import { shallowRef, watch } from "vue";
 import { EditorState, Text } from "@codemirror/state";
 import { Diagnostic } from "@codemirror/lint";
 import { cloneDeep } from "lodash";
-import { RecipeTreeNode } from "../compiler/ast";
-import { Dag } from "../compiler/dag";
-import { Compiler } from "../compiler/driver";
-import { CompilationError, ErrorSource } from "../compiler/compilationErrors";
-import { errorToDiagnostic, ErrorReporter } from "../compiler/errorReporter";
+import { RecipeTreeNode } from "@formulavize/compiler-frontend-fiz/ast";
+import { Dag } from "@formulavize/compiler-frontend-fiz/dag";
+import { Compiler } from "@formulavize/compiler-frontend-fiz/driver";
+import {
+  CompilationError,
+  ErrorSource,
+} from "@formulavize/compiler-frontend-fiz/compilationErrors";
+import {
+  errorToDiagnostic,
+  ErrorReporter,
+} from "@formulavize/compiler-frontend-fiz/errorReporter";
 import { CompletionIndex } from "../autocomplete/autocompletion";
 import { createCompletionIndex } from "../autocomplete/autocompletionFactory";
-import { dumpImportTree } from "../compiler/importUtility";
-import { Compilation } from "../compiler/compilation";
+import { dumpImportTree } from "@formulavize/compiler-frontend-fiz/importUtility";
+import { Compilation } from "@formulavize/compiler-frontend-fiz/compilation";
 
 export function useCompilation(
   shouldDumpImports: () => boolean,

@@ -1,8 +1,10 @@
 allowBuilds:
+  "@formulavize/compiler-frontend-fiz": true
   "@formulavize/lang-fiz": true
   "@formulavize/lezer-fiz": true
   "@tsparticles/engine": true
   esbuild: true
 minimumReleaseAgeExclude:
+  - "@formulavize/compiler-frontend-fiz"
   - "@formulavize/lang-fiz"
   - "@formulavize/lezer-fiz"

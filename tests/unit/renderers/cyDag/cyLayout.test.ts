@@ -1,6 +1,6 @@
 import { describe, test, expect } from "vitest";
 import { NodeSingular } from "cytoscape";
-import { Dag } from "src/compiler/dag";
+import { Dag } from "@formulavize/compiler-frontend-fiz/dag";
 import {
   getLayoutName,
   getLayoutSignature,

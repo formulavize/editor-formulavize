@@ -2,7 +2,7 @@ import { PropertyCompletion, RendererCompletions } from "../../rendererApi";
 import {
   DESCRIPTION_PREFIX,
   DESCRIPTION_PROPERTY,
-} from "../../compiler/constants";
+} from "@formulavize/compiler-frontend-fiz/constants";
 import { BACKGROUND_COLOR_PROPERTY, LAYOUT_PROPERTY } from "./constants";
 import { getLayoutOptionKeys } from "./cyLayoutSchema";
 import { CYTOSCAPE_LAYOUT_NAMES, resolveLayoutName } from "./layouts";

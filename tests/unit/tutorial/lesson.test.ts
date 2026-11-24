@@ -1,6 +1,6 @@
 import { describe, test, expect } from "vitest";
 import { Lesson, LudicModule, Puzzlet } from "src/tutorial/lesson";
-import { Compilation } from "src/compiler/compilation";
+import { Compilation } from "@formulavize/compiler-frontend-fiz/compilation";
 
 function makePuzzlet(name: string, isSuccessful = false): Puzzlet {
   return {

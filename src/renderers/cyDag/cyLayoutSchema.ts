@@ -1,4 +1,4 @@
-import { StyleProperties } from "../../compiler/dag";
+import { StyleProperties } from "@formulavize/compiler-frontend-fiz/dag";
 import { getLayoutProvider } from "./layouts";
 import { CyLayoutName, LayoutOptionBag, OptionGroup } from "./layouts/types";
 

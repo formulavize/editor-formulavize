@@ -1,5 +1,5 @@
 import { describe, test, expect } from "vitest";
-import { Dag } from "src/compiler/dag";
+import { Dag } from "@formulavize/compiler-frontend-fiz/dag";
 import {
   getCytoscapeDirectiveProperties,
   getCanvasBackgroundColor,

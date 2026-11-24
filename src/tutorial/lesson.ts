@@ -1,4 +1,4 @@
-import { Compilation } from "../compiler/compilation";
+import { Compilation } from "@formulavize/compiler-frontend-fiz/compilation";
 
 export interface AnimationStep {
   text: string;

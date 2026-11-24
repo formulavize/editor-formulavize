@@ -1,6 +1,6 @@
 import { Lesson, Puzzlet, SuccessCriterion } from "./lesson";
 import { createFizLesson } from "./fiz/lessonPlan";
-import { Compilation } from "../compiler/compilation";
+import { Compilation } from "@formulavize/compiler-frontend-fiz/compilation";
 import { TutorialProgressStore } from "./tutorialProgressStore";
 import { TypingSpeed } from "./animationHelpers";
 

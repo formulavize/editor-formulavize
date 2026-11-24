@@ -1,7 +1,10 @@
 import { Puzzlet } from "../lesson";
-import { Compilation } from "src/compiler/compilation";
-import { NodeType, NamedStyleTreeNode } from "src/compiler/ast";
-import { DESCRIPTION_PROPERTY } from "src/compiler/constants";
+import { Compilation } from "@formulavize/compiler-frontend-fiz/compilation";
+import {
+  NodeType,
+  NamedStyleTreeNode,
+} from "@formulavize/compiler-frontend-fiz/ast";
+import { DESCRIPTION_PROPERTY } from "@formulavize/compiler-frontend-fiz/constants";
 import { normal, fast } from "../animationHelpers";
 import { getStyleTaggedNodes } from "../winCheckHelpers";
 

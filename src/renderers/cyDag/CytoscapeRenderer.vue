@@ -42,7 +42,7 @@ import {
   PopperCleanup,
 } from "./cyPopperExtender";
 import { diffCyElements, applyDataUpdates } from "./cyDiffer";
-import { Dag } from "../../compiler/dag";
+import { Dag } from "@formulavize/compiler-frontend-fiz/dag";
 import { saveAs } from "file-saver";
 import { FileExportOptions } from "../../rendererApi";
 

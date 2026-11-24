@@ -35,6 +35,9 @@ importers:
       '@floating-ui/dom':
         specifier: ^1.8.0
         version: 1.8.0
+      '@formulavize/compiler-frontend-fiz':
+        specifier: ^1.0.0
+        version: 1.0.0(@codemirror/language@6.13.1)(@codemirror/lint@6.9.7)(@codemirror/state@6.7.6)(@formulavize/lang-fiz@2.3.1)(@lezer/common@1.5.5)
       '@formulavize/lang-fiz':
         specifier: ^2.3.1
         version: 2.3.1
@@ -634,6 +637,15 @@ packages:
 
   '@floating-ui/utils@0.2.12':
     resolution: {integrity: sha512-HpCo8tmWzLVad5s2d19EhAz5zqrrQ6s69qd6moPMQvkOuSwDT1YgRfWSVuc4ennqrgv3OHppiOGMQ7oC13yIww==}
+
+  '@formulavize/compiler-frontend-fiz@1.0.0':
+    resolution: {integrity: sha512-BlpiujD0WQpTQQboRwvaYasbMgOeDkrhJ8+J5tfZqlF3u69eJk1WK+CWJOV7t6wRCIu3Nm/cUF42RBKaeyreLw==}
+    peerDependencies:
+      '@codemirror/language': ^6.13.1
+      '@codemirror/lint': ^6.9.7
+      '@codemirror/state': ^6.7.6
+      '@formulavize/lang-fiz': ^2.3.1
+      '@lezer/common': ^1.5.5
 
   '@formulavize/lang-fiz@2.3.1':
     resolution: {integrity: sha512-wAak/WYYh1cDoSf9i1fVBP1LXLJmXn+iJtOFd7kP3ShnFTAN7sfVBbG9EU+k2XcB5IxrQAhz89F/frWzo1EdyQ==}
@@ -3376,6 +3388,15 @@ snapshots:
       '@floating-ui/utils': 0.2.12
 
   '@floating-ui/utils@0.2.12': {}
+
+  '@formulavize/compiler-frontend-fiz@1.0.0(@codemirror/language@6.13.1)(@codemirror/lint@6.9.7)(@codemirror/state@6.7.6)(@formulavize/lang-fiz@2.3.1)(@lezer/common@1.5.5)':
+    dependencies:
+      '@codemirror/language': 6.13.1
+      '@codemirror/lint': 6.9.7
+      '@codemirror/state': 6.7.6
+      '@formulavize/lang-fiz': 2.3.1
+      '@lezer/common': 1.5.5
+      ts-pattern: 5.9.2
 
   '@formulavize/lang-fiz@2.3.1':
     dependencies:

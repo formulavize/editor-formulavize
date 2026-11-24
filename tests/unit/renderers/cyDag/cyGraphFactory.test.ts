@@ -4,7 +4,7 @@ import {
   makeCyEdges,
   makeCyElements,
 } from "src/renderers/cyDag/cyGraphFactory";
-import { Dag } from "src/compiler/dag";
+import { Dag } from "@formulavize/compiler-frontend-fiz/dag";
 
 describe("makes cytoscape elements", () => {
   test("with two nodes", () => {

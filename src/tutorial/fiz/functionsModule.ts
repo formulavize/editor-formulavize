@@ -1,5 +1,5 @@
 import { Puzzlet } from "../lesson";
-import { Compilation } from "src/compiler/compilation";
+import { Compilation } from "@formulavize/compiler-frontend-fiz/compilation";
 import { normal } from "../animationHelpers";
 import { getInDegree, getOutDegree } from "../winCheckHelpers";
 
